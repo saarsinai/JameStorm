@@ -26,9 +26,9 @@ public class MainActivity extends Activity {
   map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
   map.setIndoorEnabled(true);
   map.setBuildingsEnabled(true);
-  map.getUiSettings().setZoomControlsEnabled(true);
+  map.getUiSettings().setZoomControlsEnabled(false);
   map.setTrafficEnabled(true);
-  CameraUpdateFactory.zoomTo(14);
+  CameraUpdateFactory.zoomTo(6);
   //map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
   // map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
  }

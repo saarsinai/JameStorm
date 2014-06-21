@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 
@@ -23,12 +22,8 @@ public class MainActivity extends Activity {
   
   // map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
   //map.setMapType(GoogleMap.MAP_TYPE_NONE);
-  map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+  map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
   map.setIndoorEnabled(true);
-  map.setBuildingsEnabled(true);
-  map.getUiSettings().setZoomControlsEnabled(true);
-  map.setTrafficEnabled(true);
-  CameraUpdateFactory.zoomTo(14);
   //map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
   // map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
  }
