@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Outer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="turn_location_message">להדליק עבורך את מקלט המיקום?</string>
+    <string name="turn_location_message">להדליק עבורך את מקלט המיקום?</string>
+    <string name="turn_location_on_button">הדלק</string>
+    <string name="cancel">לא</string>
+</resources>
