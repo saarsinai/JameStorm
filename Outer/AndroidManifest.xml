@@ -8,7 +8,6 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
 
-    
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -29,7 +28,7 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.JameStorm.outer.permission.MAPS_RECEIVE" />
-    
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -44,16 +43,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
         <meta-data
             android:name="com.google.android.gms.version"
-
             android:value="@integer/google_play_services_version" />
-
-         <meta-data
+        <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDREe54mQomXxYz4d0jjg6xXtFV_pEHXjQ" />
-        
+
+        <activity
+            android:name="com.JameStorm.outer.TurnLocationOnActivity"
+            android:label="@string/title_activity_turn_location_on" >
+        </activity>
     </application>
 
 </manifest>

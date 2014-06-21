@@ -7,4 +7,6 @@
     <string name="turn_location_message">להדליק עבורך את מקלט המיקום?</string>
     <string name="turn_location_on_button">הדלק</string>
     <string name="cancel">לא</string>
+    <string name="title_activity_turn_location_on">TurnLocationOnActivity</string>
+
 </resources>
