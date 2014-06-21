@@ -3,7 +3,7 @@
 
     <string name="app_name">Outer</string>
     <string name="hello_world">Hello world!</string>
-    <string name="turn_location_title">שירות מיקום כבוי</string>
+    <string name="turn_location_title">אהו! שירות המיקום כבוי</string>
     <string name="turn_location_message">להדליק עבורך את מקלט המיקום?</string>
     <string name="turn_location_on_button">הדלק</string>
     <string name="cancel">לא</string>
