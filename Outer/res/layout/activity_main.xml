@@ -20,4 +20,13 @@
         android:layout_gravity="top|center"
         android:text="Saar is Gay" />
  -->
+
+    <Button
+        android:id="@+id/main_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left|center"
+        android:onClick="onDirectionPressed"
+        android:text="@string/Directions" />
+
 </FrameLayout>
