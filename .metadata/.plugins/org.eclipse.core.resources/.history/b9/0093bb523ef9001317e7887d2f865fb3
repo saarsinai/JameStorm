@@ -1,7 +1,0 @@
-package com.JameStorm.outer;
-
-import android.app.DialogFragment;
-
-public class TurnLocationOnDialog extends DialogFragment {
-
-}

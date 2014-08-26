@@ -1,9 +1,5 @@
-INDEX VERSION 1.126+E:\AndroidProjects\JameStorm\.metadata\.plugins\org.eclipse.jdt.core
-412510534.index
-4011742234.index
+INDEX VERSION 1.126+C:\Projects\JameStorm\.metadata\.plugins\org.eclipse.jdt.core
+3800709360.index
 1284074322.index
-2667799470.index
-3813461623.index
 3115694439.index
-848856923.index
-1593206933.index
+535240852.index
